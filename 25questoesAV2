@@ -1,0 +1,46 @@
+let numeros=[];
+numeros.push(10);
+console.log(numeros);
+numeros.unshift(5);
+console.log(numeros);
+numeros.shift();
+console.log();
+numeros.push(15);
+console.log();
+numeros.pop();
+numeros.push(20,30,40);
+console.log();
+numeros.splice(1,1);
+console.log(numeros);
+
+let subNumeros=[10,30];
+console.log(subNumeros);
+
+numeros.reverse();
+console.log(numeros);
+console.log(numeros.indexOf(30));
+console.log(numeros.includes(50));
+numeros.push(50);
+console.log(numeros.includes(50));
+
+let soma = [];
+
+for(item of numeros){
+  console.log(item);
+  soma.unshift(item);
+  
+
+}
+
+numeros.push(60,70,80);
+console.log(numeros);
+numeros.splice(1,1,35);
+console.log(numeros);
+
+let numerosPares =[40,10,50,60,80];
+console.log(numerosPares);
+
+let numerosDobro =[80,70,20,100,120,140,160];
+console.log(numerosDobro);
+
+let.unshift
